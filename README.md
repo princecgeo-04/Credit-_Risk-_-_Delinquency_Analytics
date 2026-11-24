@@ -2,7 +2,6 @@
 
 An interactive **Power BI dashboard** that analyses 500 credit customers to show who is delinquent, where the risk is concentrated, and which customers to watch next.
 
-![Executive overview](docs/images/page1_executive_overview.png)
 
 ## Table of contents
 
