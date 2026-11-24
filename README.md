@@ -111,30 +111,35 @@ DIVIDE ( [Delinquent Customers], [Total Customers], 0 )
 `Risk_Category`: **Low** (8 or less), **Medium** (9 to 11), **High** (12 or more).
 
 > The weights are judgement-based and not learned from data. The score is a monitoring aid, not a validated prediction model.
-
 ## Dashboard pages
 
 | Page | Purpose | Main visuals |
 |---|---|---|
 | 1. Executive Overview | Headline numbers and rates by group | KPI cards, donut by status, bars by card type, city and employment, slicers |
+| 2. Customer Profile | Who the customers are | KPI cards, income band chart, city by card matrix, employment treemap, age combo chart |
+| 3. Risk Drivers | Factors linked to delinquency | Credit score, utilization and missed payment charts, credit score vs utilization scatter |
+| 4. Payment Behaviour | Six months of payment history | On-time, late and missed KPIs, delinquency by late months and missed months |
+| 5. Risk Monitoring | Who to watch first | High Risk KPIs, risk category combo chart, customer action table, risk by location |
 
+### Screenshots
+
+**1. Executive Overview**
 <img width="1548" height="868" alt="Screenshot 2026-11-18 050846" src="https://github.com/user-attachments/assets/27bb320a-c654-42a7-a436-36854c9cc1f8" />
 
 
-| 2. Customer Profile | Who the customers are | KPI cards, income band chart, city by card matrix, employment treemap, age combo chart 
-
+**2. Customer Profile**
 <img width="1546" height="872" alt="Screenshot 2026-11-18 050909" src="https://github.com/user-attachments/assets/159dcd19-11ac-45ee-bf56-cfd4340f8c06" />
 
-| 3. Risk Drivers | Factors linked to delinquency | Credit score, utilization and missed payment charts, credit score vs utilization scatter |
+**3. Risk Drivers**
+<img width="1551" height="872" alt="Screenshot 2026-11-18 050943" src="https://github.com/user-attachments/assets/a8840798-9b63-4b44-a411-4fc28aff9174" />
 
-|<img width="1551" height="872" alt="Screenshot 2026-11-18 050943" src="https://github.com/user-attachments/assets/a8840798-9b63-4b44-a411-4fc28aff9174" />
-| 4. Payment Behaviour | Six months of payment history | On-time, late and missed KPIs, delinquency by late months and missed months |
+
+**4. Payment Behaviour**
 <img width="1545" height="872" alt="Screenshot 2026-11-18 051010" src="https://github.com/user-attachments/assets/5a8ef506-69d0-4ddc-8424-95ba5b0928f6" />
 
-| 5. Risk Monitoring | Who to watch first | High Risk KPIs, risk category combo chart, customer action table, risk by location |
+
+**5. Risk Monitoring**
 <img width="1545" height="867" alt="Screenshot 2026-11-18 051033" src="https://github.com/user-attachments/assets/ed60696b-07da-4f02-8e10-797a8840af42" />
-
-
 
 ## Key findings
 
